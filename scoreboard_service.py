@@ -43,9 +43,13 @@ def quick_sort(list, start, end):
 	quick_sort(list, start, p-1)
 	quick_sort(list, p+1, end)
 
+#accessing the stored scoreboard
 #print(read_scores("scores"))
+
+#adding a new entry
 #add_score("Otter_Possum", "13", "scores")
 
-scoreboard = read_scores("scores")
-quick_sort(scoreboard, 0, len(scoreboard)-1)
-print(scoreboard)
+#sorting current scores
+#scoreboard = read_scores("scores")
+#quick_sort(scoreboard, 0, len(scoreboard)-1)
+#print(scoreboard)
